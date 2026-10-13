@@ -12,6 +12,13 @@
   body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, "Noto Sans KR", "Malgun Gothic", sans-serif; }
   main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; display: flex; flex-direction: column; gap: 20px; }
   img { width: 100%; height: auto; display: block; border-radius: 12px; box-shadow: 0 4px 16px rgba(15,42,71,.12); }
+  .apply { background: var(--ink); color: #fff; border-radius: 12px; padding: 36px 24px; text-align: center; box-shadow: 0 4px 16px rgba(15,42,71,.12); }
+  .apply .label { display: inline-block; margin: 0 0 14px; padding: 6px 14px; border-radius: 999px; background: #ff6b4a; font-size: 14px; font-weight: 700; }
+  .apply h2 { margin: 0 0 14px; font-size: 26px; line-height: 1.35; }
+  .apply .desc { margin: 0 0 24px; font-size: 16px; line-height: 1.6; color: #cdd6e2; }
+  .apply .btn { display: block; max-width: 360px; margin: 0 auto; padding: 18px 0; border-radius: 12px; background: #ff6b4a; color: #fff; font-size: 19px; font-weight: 700; text-decoration: none; }
+  .apply .btn:active { background: #e85a3a; }
+  .apply .info { margin: 18px 0 0; font-size: 14px; color: #9fb0c4; }
 </style>
 </head>
 <body>
@@ -23,6 +30,13 @@
   <img src="images/05.png" alt="5/7 설명회와 홍보 콘텐츠">
   <img src="images/06.png" alt="6/7 미니앱 리포트와 조건 안내">
   <img src="images/07.png" alt="7/7 참석 안내 - 원장님을 기다리겠습니다">
+  <section class="apply">
+    <p class="label">참석 신청</p>
+    <h2>참석하실 원장님은<br>신청서를 남겨 주세요</h2>
+    <p class="desc">신청해 주신 원장님은 당일 참석자 톡방에 초대해 드리고,<br>그 톡방으로 시연회 링크를 보내드립니다.</p>
+    <a class="btn" href="https://forms.gle/HWaUsbfdfZ9t9QH57" target="_blank" rel="noopener">참석 신청하기</a>
+    <p class="info">10월 15일(목) 오전 11시 · 부산 연합회 사무실</p>
+  </section>
 </main>
 </body>
 </html>
